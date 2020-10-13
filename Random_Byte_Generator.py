@@ -9,10 +9,6 @@ import time
 base = "__asm _emit ";
 zero_to_nine = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
 alphabet = ['a', 'B', 'c', 'd', 'E', 'f', 'G', 'H', 'i', 'J', 'K', 'l', 'M', 'N', 'o', 'P', 'q', 'r', 'S', 't', 'U', 'v', 'W', 'x', 'Y', 'z']
-#unnecessary but it's too late now...
-
-
-
 #__________________fix this________________________|
 '''
 def setrandomnumbers():

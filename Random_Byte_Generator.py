@@ -42,9 +42,7 @@ def GetRandomNumbers():
     eight_random_number = random.choice(zero_to_nine)
     nine_random_number = random.choice(zero_to_nine)
     ten_random_number = random.choice(zero_to_nine)
-
     #___________________|
-
 def GetRandomLetters():
         #setrandomalphabet()
         global random_alphabet, two_random_alphabet, three_random_alphabet, four_random_alphabet, five_random_alphabet, six_random_alphabet, seven_random_alphabet, eight_random_alphabet, nine_random_alphabet, ten_random_alphabet
@@ -58,11 +56,7 @@ def GetRandomLetters():
         eight_random_alphabet = random.choice(alphabet)
         nine_random_alphabet = random.choice(alphabet)
         ten_random_alphabet = random.choice(alphabet)
-
-
 #___________________|
-
-
 def SettingVariables():
     #setallvariables()
     global random_number, two_random_number, three_random_number, four_random_number, five_random_number, six_random_number, seven_random_number, eight_random_number, nine_random_number, ten_random_number
@@ -78,9 +72,7 @@ def SettingVariables():
     eight_first_combination = (base + "0" + "x" + eight_random_alphabet + eight_random_number + " " + "/")
     nine_first_combination = (base + "0" + "x" + nine_random_number + nine_random_alphabet + " " + "/")
     ten_first_combination = (base + "0" + "x" + ten_random_alphabet + ten_random_number + " " + "/")
-
     #___________________|
-
 def PrintVariables():
     #setcombinations()
     global first_combination, two_first_combination, three_first_combination, four_first_combination, five_first_combination, six_first_combination, seven_first_combination, eight_first_combination, nine_first_combination, ten_first_combination
@@ -93,9 +85,7 @@ def PrintVariables():
     print (seven_first_combination)
     print (eight_first_combination)
     print (nine_first_combination)
-
     #___________________|
-
 def ResetVariables():
     #setcombinations()
     global first_combination, two_first_combination, three_first_combination, four_first_combination, five_first_combination, six_first_combination, seven_first_combination, eight_first_combination, nine_first_combination, ten_first_combination
@@ -108,18 +98,15 @@ def ResetVariables():
     del seven_first_combination
     del eight_first_combination
     del nine_first_combination
-
-
+      #___________________|
 def FinalProduct():
    GetRandomNumbers()
    GetRandomLetters()
    SettingVariables()
    PrintVariables()
    ResetVariables()
-
-
 #_________________________________________________________|
-
+#Create input into times to run finalproduct function
 FinalProduct()
 FinalProduct()
 FinalProduct()
